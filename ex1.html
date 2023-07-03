@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let CSSIOStream=`.model-a {
+  background:#fff;
+  color:  #aaa;
+  border:  1px solid #aaa;
+  border-radius  : 5px;
+}
+.model-a:hover {
+  background:#000;
+  color:#fff;
+  border:1px solid #fff;
+}
+
+/*seperate page section style, normally, i will left one blank rows or a note*/
+
+.model-b{margin-right:10px;}
+.model-b-list{margin-right:10px;}
+
+/*seperate page section style, normally, i will left one blank rows or a note*/
+
+
+
+`;
+
+
+let CSSIOStreamOutput=CSSIOStream
+.replace(/\ +/g, ' ')
+.replace(/;\n/g,';')
+.replace(/{\n/g,'{')
+
+console.log(CSSIOStreamOutput);
+    </script>
+</body>
+</html>
