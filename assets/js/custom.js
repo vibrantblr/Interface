@@ -52,9 +52,9 @@ jQuery(document).ready(function() {
 
     jQuery(".client-logo-slider").slick({
         draggable:false,
-        slidesToShow:5,
+        slidesToShow:6,
         infinite:true,
-        slidesToScroll:5,
+        slidesToScroll:6,
         arrows: false,
         autoplay: true,
         autoplaySpeed: 0,

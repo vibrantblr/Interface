@@ -3,9 +3,8 @@
 
 <head>
    <meta charset="utf-8">
-   <meta name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
    <meta name="format-detection" content="telephone=no" />
    <title>Interface</title>
    <!-- <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon"/> -->
@@ -17,821 +16,6 @@
    <link rel="stylesheet" href="assets/css/style.css" />
    <link rel="stylesheet" href="assets/css/responsive.css" />
    <link rel="stylesheet" href="assets/css/outer.css" />
-
-
-   <style>
-      /*! CSS Used from: Embedded */
-      .slick-slider {
-         box-sizing: border-box;
-         -webkit-user-select: none;
-         user-select: none;
-         -webkit-touch-callout: none;
-         -khtml-user-select: none;
-         touch-action: pan-y;
-         -webkit-tap-highlight-color: transparent;
-      }
-
-      .slick-list,
-      .slick-slider {
-         position: relative;
-         display: block;
-      }
-
-      .slick-list {
-         overflow: hidden;
-         margin: 0;
-         padding: 0;
-      }
-
-      .slick-list:focus {
-         outline: none;
-      }
-
-      .slick-slider .slick-list,
-      .slick-slider .slick-track {
-         transform: translateZ(0);
-      }
-
-      .slick-track {
-         position: relative;
-         top: 0;
-         left: 0;
-         display: block;
-         margin-left: auto;
-         margin-right: auto;
-      }
-
-      .slick-track:after,
-      .slick-track:before {
-         display: table;
-         content: "";
-      }
-
-      .slick-track:after {
-         clear: both;
-      }
-
-      .slick-slide {
-         display: none;
-         float: left;
-         height: 100%;
-         min-height: 1px;
-      }
-
-      .slick-slide img {
-         display: block;
-      }
-
-      .slick-initialized .slick-slide {
-         display: block;
-      }
-
-      .button-module--primaryLink--2sXtv {
-         background: #fdcd2d;
-         border-radius: 1px;
-         padding: 16px 24px;
-         line-height: 18px;
-         height: auto;
-         font-size: 14px;
-         color: #000;
-         text-align: center;
-         font-weight: 600;
-         font-family: Inter, sans-serif;
-         cursor: pointer;
-         transition: all .2s ease;
-      }
-
-      @media (min-width:992px) {
-         .button-module--primaryLink--2sXtv {
-            height: 48px;
-         }
-      }
-
-      .button-module--primaryLink--2sXtv>span {
-         font-size: 14px !important;
-         font-weight: 500 !important;
-      }
-
-      .button-module--primaryLink--2sXtv:hover {
-         background: #f0c22a !important;
-         box-shadow: 0 1px 8px 0 rgba(0, 0, 0, .2), 0 3px 3px -2px rgba(0, 0, 0, .12), 0 3px 4px 0 rgba(0, 0, 0, .14);
-         text-decoration: none;
-         color: #1b1d1c;
-      }
-
-      *,
-      :after,
-      :before {
-         box-sizing: border-box;
-      }
-
-      section {
-         display: block;
-      }
-
-      [tabindex="-1"]:focus:not(:focus-visible) {
-         outline: 0 !important;
-      }
-
-      h2,
-      h3,
-      h4,
-      h5 {
-         margin-top: 0;
-         margin-bottom: .5rem;
-      }
-
-      p {
-         margin-top: 0;
-         margin-bottom: 1rem;
-      }
-
-      a {
-         color: #007bff;
-         text-decoration: none;
-      }
-
-      a:hover {
-         color: #0056b3;
-         text-decoration: underline;
-      }
-
-      img {
-         vertical-align: middle;
-      }
-
-      button {
-         border-radius: 0;
-      }
-
-      button:focus {
-         outline: 1px dotted;
-         outline: 5px auto -webkit-focus-ring-color;
-      }
-
-      button {
-         font-family: inherit;
-         font-size: inherit;
-         line-height: inherit;
-      }
-
-      [type=button],
-      button {
-         -webkit-appearance: button;
-      }
-
-      [type=button]:not(:disabled),
-      button:not(:disabled) {
-         cursor: pointer;
-      }
-
-      h2,
-      h3,
-      h4,
-      h5 {
-         margin-bottom: .5rem;
-         font-weight: 500;
-         line-height: 1.2;
-      }
-
-      h2 {
-         font-size: 2rem;
-      }
-
-      h3 {
-         font-size: 1.75rem;
-      }
-
-      h4 {
-         font-size: 1.5rem;
-      }
-
-      h5 {
-         font-size: 1.25rem;
-      }
-
-      .container {
-         width: 100%;
-         padding-right: 15px;
-         padding-left: 15px;
-         margin-right: auto;
-         margin-left: auto;
-      }
-
-      @media (min-width:576px) {
-         .container {
-            max-width: 540px;
-         }
-      }
-
-      @media (min-width:768px) {
-         .container {
-            max-width: 720px;
-         }
-      }
-
-      @media (min-width:992px) {
-         .container {
-            max-width: 960px;
-         }
-      }
-
-      @media (min-width:1200px) {
-         .container {
-            max-width: 1200px;
-         }
-      }
-
-      @media (min-width:576px) {
-         .container {
-            max-width: 540px;
-         }
-      }
-
-      @media (min-width:768px) {
-         .container {
-            max-width: 720px;
-         }
-      }
-
-      @media (min-width:992px) {
-         .container {
-            max-width: 960px;
-         }
-      }
-
-      @media (min-width:1200px) {
-         .container {
-            max-width: 1200px;
-         }
-      }
-
-      .row {
-         display: flex;
-         flex-wrap: wrap;
-         margin-right: -15px;
-         margin-left: -15px;
-      }
-
-      .col-lg-6,
-      .col-lg-8,
-      .col-md-12 {
-         position: relative;
-         width: 100%;
-         padding-right: 15px;
-         padding-left: 15px;
-      }
-
-      @media (min-width:768px) {
-         .col-md-12 {
-            flex: 0 0 100%;
-            max-width: 100%;
-         }
-      }
-
-      @media (min-width:992px) {
-         .col-lg-6 {
-            flex: 0 0 50%;
-            max-width: 50%;
-         }
-
-         .col-lg-8 {
-            flex: 0 0 66.66667%;
-            max-width: 66.66667%;
-         }
-      }
-
-      .mb-0 {
-         margin-bottom: 0 !important;
-      }
-
-      .pb-5 {
-         padding-bottom: 3rem !important;
-      }
-
-      @media print {
-
-         *,
-         :after,
-         :before {
-            text-shadow: none !important;
-            box-shadow: none !important;
-         }
-
-         a:not(.btn) {
-            text-decoration: underline;
-         }
-
-         img {
-            page-break-inside: avoid;
-         }
-
-         h2,
-         h3,
-         p {
-            orphans: 3;
-            widows: 3;
-         }
-
-         h2,
-         h3 {
-            page-break-after: avoid;
-         }
-
-         .container {
-            min-width: 992px !important;
-         }
-      }
-
-      h2,
-      h3,
-      h4,
-      h5,
-      p {
-         font-family: Manrope, sans-serif;
-      }
-
-      @media only screen and (min-width:768px) {
-         .ie-section {
-            margin: 60px 0;
-         }
-      }
-
-      .ie-case-study-section {
-         position: relative;
-      }
-
-      .ie-case-study-section .ie-case-study-slider-quote {
-         padding: 0 0 0 55px;
-         position: relative;
-      }
-
-      .ie-case-study-section .ie-case-study-slider-quote:before {
-         content: "";
-         position: absolute;
-         background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyOCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI4IDI0Ij48cGF0aCBmaWxsPSIjRkRDRDJEIiBkPSJNMjcuMDM4IDI0VjEyLjA2aC01Ljk0NmMtLjE1NS0xLjM5My0uMDg1LTIuNjQuMjA5LTMuNzQuMjk0LTEuMDk5Ljg2LTEuOTUgMS42OTYtMi41NTUuODM2LS42MDQgMS45NjYtLjg0NCAzLjM5MS0uNzJsLjY1LTQuODMxYy0zLjgxLS42Mi02LjY3NC4xMDgtOC41OTQgMi4xODMtMS45MiAyLjA3NS0yLjg4IDUuMTQxLTIuODggOS4xOTlWMjRoMTEuNDc0em0tMTUuNTYzIDBWMTIuMDZINS41MjhjLS4xNTQtMS4zOTMtLjA4NS0yLjY0LjIxLTMuNzQuMjk0LTEuMDk5Ljg1OS0xLjk1IDEuNjk1LTIuNTU1LjgzNi0uNjA0IDEuOTY3LS44NDQgMy4zOTItLjcybC42NS00LjgzMWMtMy44MS0uNjItNi42NzQuMTA4LTguNTk1IDIuMTgzQy45NiA0LjQ3MiAwIDcuNTM4IDAgMTEuNTk2VjI0aDExLjQ3NXoiLz48L3N2Zz4=) no-repeat 50%;
-         background-size: 100%;
-         width: 20px;
-         height: 20px;
-         left: 8px;
-         top: 4px;
-      }
-
-      .ie-case-study-section .ie-case-study-slider-quote .ie-desc {
-         color: #fff;
-         font-family: "IBM Plex Serif", serif;
-         font-size: 13px;
-         font-style: italic;
-      }
-
-      @media only screen and (min-width:768px) {
-         .ie-case-study-section .ie-case-study-slider-quote .ie-desc {
-            font-size: 28px;
-            line-height: 42px;
-         }
-      }
-
-      @media only screen and (min-width:768px) {
-         .ie-case-study-section .ie-case-study-slider-quote {
-            padding-left: 60px;
-         }
-      }
-
-      @media only screen and (min-width:768px) {
-         .ie-case-study-section .ie-case-study-slider-quote {
-            max-width: 80%;
-         }
-      }
-
-      @media only screen and (min-width:992px) {
-         .slick-initialized .slick-slide {
-            padding-left: 18px;
-         }
-      }
-
-      .ucu-section {
-         background: #fff;
-      }
-
-      .alternate-bg-section-wrapper {
-         background: rgba(0, 0, 0, .2);
-         padding: 45px 0 !important;
-      }
-
-      @media only screen and (min-width:576px) {
-         .alternate-bg-section-wrapper {
-            padding: 70px 0 !important;
-         }
-      }
-
-      .ie-career-section {
-         margin-top: 60px;
-      }
-
-      @media only screen and (min-width:576px) {
-         .ie-career-section {
-            margin-top: 120px;
-         }
-      }
-
-      .ie-career-section .ie-career-ai-title-section {
-         margin-bottom: 74px;
-         padding: 0 20px;
-      }
-
-      .ie-career-section .ie-career-ai-title-section h2 {
-         font-size: 24px;
-         line-height: 32px;
-         letter-spacing: 0;
-         color: #fff;
-         font-weight: 600;
-         margin-top: 10px;
-      }
-
-      @media only screen and (min-width:576px) {
-         .ie-career-section .ie-career-ai-title-section h2 {
-            font-size: 60px;
-            line-height: 72px;
-            font-weight: 800;
-            margin-top: auto;
-         }
-      }
-
-      .ie-career-section .ie-career-ai-title-section .ai-title-right-area h5 {
-         font-family: "IBM Plex Serif", serif;
-         font-size: 15px;
-         line-height: 22px;
-         letter-spacing: 0;
-         color: #fff;
-         font-weight: 300;
-         margin-bottom: 24px;
-      }
-
-      @media only screen and (min-width:576px) {
-         .ie-career-section .ie-career-ai-title-section .ai-title-right-area h5 {
-            font-size: 36px;
-            line-height: 56px;
-         }
-      }
-
-      .ie-career-section .ie-career-derive-section {
-         margin-bottom: 64px;
-      }
-
-      .ie-career-section .ie-career-derive-section h3 {
-         font-size: 24px;
-         font-weight: 600;
-         line-height: 32px;
-         letter-spacing: 0;
-         color: #fff;
-         margin-bottom: 10px;
-      }
-
-      .ie-career-section .ie-career-derive-section h5 {
-         font-size: 20px;
-         line-height: 28px;
-         letter-spacing: 0;
-         font-weight: 600;
-         color: #fff;
-         margin-top: 16px;
-      }
-
-      .ie-career-section .ie-career-derive-section p {
-         font-family: "IBM Plex Serif", serif;
-         font-size: 13px;
-         line-height: 19px;
-         letter-spacing: 0;
-         font-weight: 300;
-         color: #fff;
-         padding-right: 26px;
-      }
-
-      .ie-career-section .ie-career-derive-section .values-desc-area {
-         margin-bottom: 24px;
-      }
-
-      .ie-career-section .ie-career-derive-section .perks-image-area img,
-      .ie-career-section .ie-career-derive-section .values-desc-area img {
-         float: left;
-         margin-right: 25px;
-      }
-
-      @media only screen and (min-width:576px) {
-         .ie-career-section .ie-career-derive-section {
-            margin-bottom: 104px;
-         }
-
-         .ie-career-section .ie-career-derive-section h3 {
-            font-size: 60px;
-            font-weight: 800;
-            line-height: 72px;
-            margin-bottom: 48px;
-         }
-
-         .ie-career-section .ie-career-derive-section h5 {
-            font-size: 36px;
-            line-height: 48px;
-         }
-
-         .ie-career-section .ie-career-derive-section p {
-            font-size: 24px;
-            line-height: 36px;
-         }
-
-         .ie-career-section .ie-career-derive-section .values-desc-area {
-            margin-bottom: 64px;
-         }
-
-         .ie-career-section .ie-career-derive-section .perks-image-area img,
-         .ie-career-section .ie-career-derive-section .values-desc-area img {
-            float: none;
-            margin-right: auto;
-         }
-      }
-
-      .ie-career-section .ie-career-derive-section.ie-career-white-bg {
-         background: #fff;
-      }
-
-      .ie-career-section .ie-career-derive-section.ie-career-white-bg h3,
-      .ie-career-section .ie-career-derive-section.ie-career-white-bg h5 {
-         color: #1b1d1c;
-      }
-
-      .ie-career-section .ie-career-derive-section.ie-career-white-bg p {
-         color: #212529;
-      }
-
-      .ie-career-section .ie-career-perks-benefits {
-         padding-left: 20px;
-         padding-right: 20px;
-         margin-bottom: 0;
-      }
-
-      .ie-career-section .ie-career-perks-benefits h3 {
-         margin-bottom: 32px !important;
-      }
-
-      .ie-career-section .ie-career-perks-benefits .perks-text-area {
-         margin-left: 118px;
-      }
-
-      @media only screen and (min-width:576px) {
-         .ie-career-section .ie-career-perks-benefits h3 {
-            margin-bottom: 82px !important;
-         }
-
-         .ie-career-section .ie-career-perks-benefits .perks-text-area {
-            margin-left: 0;
-         }
-      }
-
-      @media only screen and (min-width:992px) {
-         .ie-career-nav-slider {
-            padding: 0 60px;
-         }
-      }
-
-      .ie-career-nav-slider .slick-next,
-      .ie-career-nav-slider .slick-prev {
-         width: 38px;
-         height: 38px;
-         background-color: transparent;
-         border: none;
-         box-shadow: none;
-         outline: none;
-         position: absolute;
-         top: 40%;
-         transform: translateY(-50%);
-         border-radius: 50%;
-         text-indent: 100px;
-         overflow: hidden;
-         z-index: 1;
-      }
-
-      @media only screen and (min-width:768px) {
-
-         .ie-career-nav-slider .slick-next,
-         .ie-career-nav-slider .slick-prev {
-            width: 58px;
-            height: 58px;
-         }
-      }
-
-      .ie-career-nav-slider .slick-next:after,
-      .ie-career-nav-slider .slick-prev:after {
-         display: block;
-         content: "";
-         width: 13px;
-         height: 22px;
-         position: absolute;
-         top: 50%;
-         left: 50%;
-         transform: translate(-50%, -50%);
-         background-repeat: no-repeat;
-         background-position: 50%;
-         background-size: contain;
-      }
-
-      .ie-career-nav-slider .slick-prev {
-         left: 0;
-      }
-
-      .ie-career-nav-slider .slick-prev:after {
-         background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAxNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMTIuNjA2NiAyMi4yMTMyTDIgMTEuNjA2NkwxMi42MDY2IDAuOTk5OTkzIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg==);
-      }
-
-      .ie-career-nav-slider .slick-next {
-         right: 0;
-      }
-
-      .ie-career-nav-slider .slick-next:after {
-         background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAxNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJNMS42MDY1NyAxTDEyLjIxMzIgMTEuNjA2NkwxLjYwNjU3IDIyLjIxMzIiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PC9zdmc+);
-      }
-
-      .ie-career-nav-slider .slick-slide {
-         transition: all .4s;
-         transform: scale(.7) !important;
-         opacity: .5 !important;
-         outline: none;
-         cursor: pointer;
-      }
-
-      .ie-career-nav-slider .slick-slide:focus {
-         outline: none;
-      }
-
-      .ie-career-nav-slider .slick-slide .et-first-slider-item-wrap p {
-         line-height: 16px !important;
-      }
-
-      .ie-career-nav-slider .slick-current {
-         transform: scale(1) !important;
-         opacity: 1 !important;
-      }
-
-      @media only screen and (min-width:992px) {
-         .et-second-slider-main-wrap {
-            margin-bottom: 60px;
-         }
-      }
-
-      @media only screen and (min-width:992px) {
-         .et-second-slider-main-wrap .slick-slide>div {
-            text-align: center;
-         }
-      }
-
-      @media only screen and (min-width:992px) {
-         .et-second-slider-main-wrap .slick-slide>div .et-second-slider-item-wrap {
-            text-align: left;
-         }
-      }
-
-      .ie-career-section--hero.ie-career-derive-section {
-         padding-top: 15px;
-      }
-
-      .ie-career-section--hero.ie-career-derive-section h3 {
-         margin-bottom: 40px;
-         padding: 0 20px;
-      }
-
-      @media only screen and (min-width:992px) {
-         .ie-career-section--hero.ie-career-derive-section h3 {
-            padding: 0;
-         }
-      }
-
-      .ie-career-section--hero.ie-career-derive-section .ie-case-study-section {
-         padding-left: 20px;
-      }
-
-      .ie-career-section-extra-padding {
-         padding: 0 20px;
-      }
-
-      .ie-employee-mobile-img .ie-case-study-slider-quote {
-         padding: 0;
-      }
-
-      @media only screen and (min-width:576px) {
-         .ie-employee-mobile-img .ie-case-study-slider-quote {
-            padding: 0 0 0 55px;
-         }
-      }
-
-      .ie-employee-mobile-img .ie-case-study-slider-quote .ie-desc {
-         padding-right: 0 !important;
-      }
-
-      @media only screen and (min-width:576px) {
-         .ie-employee-mobile-img .ie-case-study-slider-quote .ie-desc {
-            padding-right: 26px;
-         }
-      }
-
-      .ie-employee-mobile-img .ie-case-study-slider-quote:before {
-         display: none;
-      }
-
-      @media only screen and (min-width:576px) {
-         .ie-employee-mobile-img .ie-case-study-slider-quote:before {
-            display: block;
-         }
-      }
-
-      .et-first-slider-item-wrap {
-         text-align: center;
-      }
-
-      .et-first-slider-item-wrap img {
-         width: 84px;
-         height: 84px;
-         border-radius: 50%;
-         display: inline-block;
-         margin-bottom: 12px;
-      }
-
-      .et-first-slider-item-wrap h4,
-      .et-first-slider-item-wrap p {
-         font-stretch: normal;
-         font-style: normal;
-         line-height: normal;
-         letter-spacing: normal;
-         text-align: center;
-         color: #fff;
-      }
-
-      .et-first-slider-item-wrap h4 {
-         font-size: 16px !important;
-         font-weight: 700 !important;
-         margin-bottom: 10px;
-      }
-
-      .et-first-slider-item-wrap p {
-         font-size: 12px !important;
-         font-weight: 300 !important;
-         line-height: 0 !important;
-         padding-right: 0 !important;
-      }
-
-      .et-second-slider-main-wrap .slick-arrow {
-         display: none !important;
-      }
-
-      section {
-         display: block;
-      }
-
-      a {
-         background-color: transparent;
-         -webkit-text-decoration-skip: objects;
-      }
-
-      a:active,
-      a:hover {
-         outline-width: 0;
-      }
-
-      img {
-         border-style: none;
-      }
-
-      button {
-         font: inherit;
-         margin: 0;
-      }
-
-      button {
-         overflow: visible;
-      }
-
-      button {
-         text-transform: none;
-      }
-
-      button,
-      html [type=button] {
-         -webkit-appearance: button;
-      }
-
-      *,
-      :after,
-      :before {
-         box-sizing: inherit;
-      }
-
-      p {
-         padding: 0;
-         margin: 0 0 1.45rem;
-      }
-
-      ::selection {
-         color: #222;
-         background: #fdcd2d;
-      }
-   </style>
 </head>
 
 <body>
@@ -1111,7 +295,7 @@
          <div class="container">
             <div class="row">
                <div class="col-lg-8">
-                  <h3>Hear from our employees</h3>
+                  <h1>Hear from our employees</h1>
                </div>
             </div>
          </div>
@@ -1120,1205 +304,379 @@
                <div class="row">
                   <div class="col-md-12">
                      <div>
-                        <div class="slick-slider ie-career-nav-slider slick-initialized" dir="ltr">
-                           <button type="button" data-role="none" class="slick-arrow slick-prev"
-                              style="display: block;"> Previous</button>
-                           <div class="slick-list">
-                              <div class="slick-track"
-                                 style="width: 6650px; opacity: 1; transform: translate3d(-1050px, 0px, 0px);">
-                                 <div data-index="-6" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/jerome-90b479288d5c922e02404af19475d385.webp">
-                                             <source type="image/png"
-                                                srcset="/static/jerome-c6a682f51893de3e849c260ec17a4b1c.png">
-                                             <img class="lazyload"
-                                                data-src="/static/jerome-c6a682f51893de3e849c260ec17a4b1c.png"
-                                                alt="Jerome">
-                                          </picture>
-                                          <h4>Jerome</h4>
-                                          <p>Conversation Experience Analyst</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="-5" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/shivaram-4e6517246af25ae9e6b2a477dd885e93.webp">
-                                             <source type="image/png"
-                                                srcset="/static/shivaram-3c73d5609eebdb262e686fa18028e97c.png">
-                                             <img class=" ls-is-cached lazyloaded"
-                                                data-src="/static/shivaram-3c73d5609eebdb262e686fa18028e97c.png"
-                                                alt="Shivaram"
-                                                src="/static/shivaram-3c73d5609eebdb262e686fa18028e97c.png">
-                                          </picture>
-                                          <h4>Shivaram</h4>
-                                          <p>Associate Director Pre-sales</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="-4" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/shwetha-80330e5d414a053d5ef79c23bcb014c0.webp">
-                                             <source type="image/png"
-                                                srcset="/static/shwetha-896b90ba02111c79b17855383102652d.png">
-                                             <img class=" ls-is-cached lazyloaded"
-                                                data-src="/static/shwetha-896b90ba02111c79b17855383102652d.png"
-                                                alt="Shwetha D"
-                                                src="/static/shwetha-896b90ba02111c79b17855383102652d.png">
-                                          </picture>
-                                          <h4>Shwetha D</h4>
-                                          <p>Conversation Experience Analyst</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="-3" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/sindhu-9bc6627ceaabe764051bb950c9e69d9e.webp">
-                                             <source type="image/png"
-                                                srcset="/static/sindhu-b523b58307e37f2b829e4567f802a4e5.png">
-                                             <img class=" ls-is-cached lazyloaded"
-                                                data-src="/static/sindhu-b523b58307e37f2b829e4567f802a4e5.png"
-                                                alt="Sindhu" src="/static/sindhu-b523b58307e37f2b829e4567f802a4e5.png">
-                                          </picture>
-                                          <h4>Sindhu</h4>
-                                          <p>HR - Recruiter</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="-2" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/arshad-2b447819012a6df2880c2ed3a1c869ac.webp">
-                                             <source type="image/png"
-                                                srcset="/static/arshad-4118010521680a712934be6eba5e1efc.png">
-                                             <img class=" ls-is-cached lazyloaded"
-                                                data-src="/static/arshad-4118010521680a712934be6eba5e1efc.png"
-                                                alt="Mohammad Arshad Kazmi"
-                                                src="/static/arshad-4118010521680a712934be6eba5e1efc.png">
-                                          </picture>
-                                          <h4>Mohammad Arshad Kazmi</h4>
-                                          <p>Senior Software Engineer</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/thejas-5e26d05f540ed030ac2cf4e6d9d74a9f.webp">
-                                             <source type="image/png"
-                                                srcset="/static/thejas-6ee4d295b254e2190c403b83f26575e0.png">
-                                             <img class=" ls-is-cached lazyloaded"
-                                                data-src="/static/thejas-6ee4d295b254e2190c403b83f26575e0.png"
-                                                alt="Thejas R"
-                                                src="/static/thejas-6ee4d295b254e2190c403b83f26575e0.png">
-                                          </picture>
-                                          <h4>Thejas R</h4>
-                                          <p>QA Engineer</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1"
-                                    aria-hidden="false" style="outline: none; width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="data:image/webp;base64,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">
-                                             <source type="image/png"
-                                                srcset="/static/bruce-9294fc8e75a2b06fe73279d8403fbc7e.png">
-                                             <img class=" ls-is-cached lazyloaded"
-                                                data-src="/static/bruce-9294fc8e75a2b06fe73279d8403fbc7e.png"
-                                                alt="Bruce Gillooly"
-                                                src="/static/bruce-9294fc8e75a2b06fe73279d8403fbc7e.png">
-                                          </picture>
-                                          <h4>Bruce Gillooly</h4>
-                                          <p>Sales Advisor</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="1" class="slick-slide slick-active" tabindex="-1" aria-hidden="false"
-                                    style="outline: none; width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/sinu-9373ebc714fc2c992ca55e7d90dee610.webp">
-                                             <source type="image/png"
-                                                srcset="/static/sinu-91e366e3866e0759ba2195aeebdc41d0.png">
-                                             <img class=" ls-is-cached lazyloaded"
-                                                data-src="/static/sinu-91e366e3866e0759ba2195aeebdc41d0.png"
-                                                alt="Sinu Mohan"
-                                                src="/static/sinu-91e366e3866e0759ba2195aeebdc41d0.png">
-                                          </picture>
-                                          <h4>Sinu Mohan</h4>
-                                          <p>Software Engineer</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="2" class="slick-slide slick-active" tabindex="-1" aria-hidden="false"
-                                    style="outline: none; width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/vithun-eb25d8f55aea025f87701e37bf9b255d.webp">
-                                             <source type="image/png"
-                                                srcset="/static/vithun-525fdde0520ed373653c302d940af32a.png">
-                                             <img class=" ls-is-cached lazyloaded"
-                                                data-src="/static/vithun-525fdde0520ed373653c302d940af32a.png"
-                                                alt="Vithun" src="/static/vithun-525fdde0520ed373653c302d940af32a.png">
-                                          </picture>
-                                          <h4>Vithun</h4>
-                                          <p>QA Engineer - Platform</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="3" class="slick-slide slick-active" tabindex="-1" aria-hidden="false"
-                                    style="outline: none; width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/jaimadhav-4164ee079cfb8885b0c50baecd072364.webp">
-                                             <source type="image/png"
-                                                srcset="/static/jaimadhav-1cca0edd87f5ae2e968d9e834bedcae7.png">
-                                             <img class=" ls-is-cached lazyloaded"
-                                                data-src="/static/jaimadhav-1cca0edd87f5ae2e968d9e834bedcae7.png"
-                                                alt="Jaimadhav Senapati"
-                                                src="/static/jaimadhav-1cca0edd87f5ae2e968d9e834bedcae7.png">
-                                          </picture>
-                                          <h4>Jaimadhav Senapati</h4>
-                                          <p>Team Lead - Strategy</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="4" class="slick-slide slick-active" tabindex="-1" aria-hidden="false"
-                                    style="outline: none; width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="data:image/webp;base64,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">
-                                             <source type="image/png"
-                                                srcset="/static/vivek-c1adfef41717b76021f8ff7f04942bc6.png">
-                                             <img class=" ls-is-cached lazyloaded"
-                                                data-src="/static/vivek-c1adfef41717b76021f8ff7f04942bc6.png"
-                                                alt="Vivek Swaminathan"
-                                                src="/static/vivek-c1adfef41717b76021f8ff7f04942bc6.png">
-                                          </picture>
-                                          <h4>Vivek Swaminathan</h4>
-                                          <p>Director - Strategy</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="5" class="slick-slide slick-active" tabindex="-1" aria-hidden="false"
-                                    style="outline: none; width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/praneeth-fcc16b47a260f3b622b40d57081af94a.webp">
-                                             <source type="image/png"
-                                                srcset="/static/praneeth-744fa2c8c6f5bcb2d1222e7631fdb781.png">
-                                             <img class=" ls-is-cached lazyloaded"
-                                                data-src="/static/praneeth-744fa2c8c6f5bcb2d1222e7631fdb781.png"
-                                                alt="Praneet Karnale"
-                                                src="/static/praneeth-744fa2c8c6f5bcb2d1222e7631fdb781.png">
-                                          </picture>
-                                          <h4>Praneet Karnale</h4>
-                                          <p>Conversation Experience Specialist</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="6" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/selva-kumar-bf381b6aaea8e828b26688fd6d7f6fba.webp">
-                                             <source type="image/png"
-                                                srcset="/static/selva-kumar-fbf2a5f0c3d09098d3def205473d2751.jpg">
-                                             <img class=" ls-is-cached lazyloaded"
-                                                data-src="/static/selva-kumar-fbf2a5f0c3d09098d3def205473d2751.jpg"
-                                                alt="M Thyagarajan Selva Kumar"
-                                                src="/static/selva-kumar-fbf2a5f0c3d09098d3def205473d2751.jpg">
-                                          </picture>
-                                          <h4>M Thyagarajan Selva Kumar</h4>
-                                          <p>Sr. QA Engineer</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="7" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/shiva-kumar-9de7a444533150c1a1e441899c240745.webp">
-                                             <source type="image/png"
-                                                srcset="/static/shiva-kumar-e970b3397299a4447d9eedf2355fdaf7.png">
-                                             <img class=" ls-is-cached lazyloaded"
-                                                data-src="/static/shiva-kumar-e970b3397299a4447d9eedf2355fdaf7.png"
-                                                alt="A Shiva Kumar"
-                                                src="/static/shiva-kumar-e970b3397299a4447d9eedf2355fdaf7.png">
-                                          </picture>
-                                          <h4>A Shiva Kumar</h4>
-                                          <p>Team Leader - Knowledge Operations</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="8" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/srijith-7ab3d97e5e7c6edffe6928ae1bb15a1f.webp">
-                                             <source type="image/png"
-                                                srcset="/static/srijith-bd18bd56d6558245793854358e00ee64.png">
-                                             <img class=" ls-is-cached lazyloaded"
-                                                data-src="/static/srijith-bd18bd56d6558245793854358e00ee64.png"
-                                                alt="Srijith Surendran P"
-                                                src="/static/srijith-bd18bd56d6558245793854358e00ee64.png">
-                                          </picture>
-                                          <h4>Srijith Surendran P</h4>
-                                          <p>Conversational Experience Specialist</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="9" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/anil-e5bd2e512872575da959a444a17b0d06.webp">
-                                             <source type="image/png"
-                                                srcset="/static/anil-8353981687b8feff048c445c6d09a2e5.png">
-                                             <img class=" ls-is-cached lazyloaded"
-                                                data-src="/static/anil-8353981687b8feff048c445c6d09a2e5.png"
-                                                alt="Anil Nayak"
-                                                src="/static/anil-8353981687b8feff048c445c6d09a2e5.png">
-                                          </picture>
-                                          <h4>Anil Nayak</h4>
-                                          <p>Conversation Experience Analyst - Intern</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="10" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/jerome-90b479288d5c922e02404af19475d385.webp">
-                                             <source type="image/png"
-                                                srcset="/static/jerome-c6a682f51893de3e849c260ec17a4b1c.png">
-                                             <img class=" ls-is-cached lazyloaded"
-                                                data-src="/static/jerome-c6a682f51893de3e849c260ec17a4b1c.png"
-                                                alt="Jerome" src="/static/jerome-c6a682f51893de3e849c260ec17a4b1c.png">
-                                          </picture>
-                                          <h4>Jerome</h4>
-                                          <p>Conversation Experience Analyst</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="11" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/shivaram-4e6517246af25ae9e6b2a477dd885e93.webp">
-                                             <source type="image/png"
-                                                srcset="/static/shivaram-3c73d5609eebdb262e686fa18028e97c.png">
-                                             <img class="lazyload"
-                                                data-src="/static/shivaram-3c73d5609eebdb262e686fa18028e97c.png"
-                                                alt="Shivaram">
-                                          </picture>
-                                          <h4>Shivaram</h4>
-                                          <p>Associate Director Pre-sales</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="12" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/shwetha-80330e5d414a053d5ef79c23bcb014c0.webp">
-                                             <source type="image/png"
-                                                srcset="/static/shwetha-896b90ba02111c79b17855383102652d.png">
-                                             <img class="lazyload"
-                                                data-src="/static/shwetha-896b90ba02111c79b17855383102652d.png"
-                                                alt="Shwetha D">
-                                          </picture>
-                                          <h4>Shwetha D</h4>
-                                          <p>Conversation Experience Analyst</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="13" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/sindhu-9bc6627ceaabe764051bb950c9e69d9e.webp">
-                                             <source type="image/png"
-                                                srcset="/static/sindhu-b523b58307e37f2b829e4567f802a4e5.png">
-                                             <img class="lazyload"
-                                                data-src="/static/sindhu-b523b58307e37f2b829e4567f802a4e5.png"
-                                                alt="Sindhu">
-                                          </picture>
-                                          <h4>Sindhu</h4>
-                                          <p>HR - Recruiter</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="14" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/arshad-2b447819012a6df2880c2ed3a1c869ac.webp">
-                                             <source type="image/png"
-                                                srcset="/static/arshad-4118010521680a712934be6eba5e1efc.png">
-                                             <img class="lazyload"
-                                                data-src="/static/arshad-4118010521680a712934be6eba5e1efc.png"
-                                                alt="Mohammad Arshad Kazmi">
-                                          </picture>
-                                          <h4>Mohammad Arshad Kazmi</h4>
-                                          <p>Senior Software Engineer</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="15" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/thejas-5e26d05f540ed030ac2cf4e6d9d74a9f.webp">
-                                             <source type="image/png"
-                                                srcset="/static/thejas-6ee4d295b254e2190c403b83f26575e0.png">
-                                             <img class="lazyload"
-                                                data-src="/static/thejas-6ee4d295b254e2190c403b83f26575e0.png"
-                                                alt="Thejas R">
-                                          </picture>
-                                          <h4>Thejas R</h4>
-                                          <p>QA Engineer</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="16" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="data:image/webp;base64,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">
-                                             <source type="image/png"
-                                                srcset="/static/bruce-9294fc8e75a2b06fe73279d8403fbc7e.png">
-                                             <img class="lazyload"
-                                                data-src="/static/bruce-9294fc8e75a2b06fe73279d8403fbc7e.png"
-                                                alt="Bruce Gillooly">
-                                          </picture>
-                                          <h4>Bruce Gillooly</h4>
-                                          <p>Sales Advisor</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="17" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/sinu-9373ebc714fc2c992ca55e7d90dee610.webp">
-                                             <source type="image/png"
-                                                srcset="/static/sinu-91e366e3866e0759ba2195aeebdc41d0.png">
-                                             <img class="lazyload"
-                                                data-src="/static/sinu-91e366e3866e0759ba2195aeebdc41d0.png"
-                                                alt="Sinu Mohan">
-                                          </picture>
-                                          <h4>Sinu Mohan</h4>
-                                          <p>Software Engineer</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="18" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/vithun-eb25d8f55aea025f87701e37bf9b255d.webp">
-                                             <source type="image/png"
-                                                srcset="/static/vithun-525fdde0520ed373653c302d940af32a.png">
-                                             <img class="lazyload"
-                                                data-src="/static/vithun-525fdde0520ed373653c302d940af32a.png"
-                                                alt="Vithun">
-                                          </picture>
-                                          <h4>Vithun</h4>
-                                          <p>QA Engineer - Platform</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="19" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/jaimadhav-4164ee079cfb8885b0c50baecd072364.webp">
-                                             <source type="image/png"
-                                                srcset="/static/jaimadhav-1cca0edd87f5ae2e968d9e834bedcae7.png">
-                                             <img class="lazyload"
-                                                data-src="/static/jaimadhav-1cca0edd87f5ae2e968d9e834bedcae7.png"
-                                                alt="Jaimadhav Senapati">
-                                          </picture>
-                                          <h4>Jaimadhav Senapati</h4>
-                                          <p>Team Lead - Strategy</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="20" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="data:image/webp;base64,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">
-                                             <source type="image/png"
-                                                srcset="/static/vivek-c1adfef41717b76021f8ff7f04942bc6.png">
-                                             <img class="lazyload"
-                                                data-src="/static/vivek-c1adfef41717b76021f8ff7f04942bc6.png"
-                                                alt="Vivek Swaminathan">
-                                          </picture>
-                                          <h4>Vivek Swaminathan</h4>
-                                          <p>Director - Strategy</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="21" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/praneeth-fcc16b47a260f3b622b40d57081af94a.webp">
-                                             <source type="image/png"
-                                                srcset="/static/praneeth-744fa2c8c6f5bcb2d1222e7631fdb781.png">
-                                             <img class="lazyload"
-                                                data-src="/static/praneeth-744fa2c8c6f5bcb2d1222e7631fdb781.png"
-                                                alt="Praneet Karnale">
-                                          </picture>
-                                          <h4>Praneet Karnale</h4>
-                                          <p>Conversation Experience Specialist</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="22" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/selva-kumar-bf381b6aaea8e828b26688fd6d7f6fba.webp">
-                                             <source type="image/png"
-                                                srcset="/static/selva-kumar-fbf2a5f0c3d09098d3def205473d2751.jpg">
-                                             <img class="lazyload"
-                                                data-src="/static/selva-kumar-fbf2a5f0c3d09098d3def205473d2751.jpg"
-                                                alt="M Thyagarajan Selva Kumar">
-                                          </picture>
-                                          <h4>M Thyagarajan Selva Kumar</h4>
-                                          <p>Sr. QA Engineer</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="23" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/shiva-kumar-9de7a444533150c1a1e441899c240745.webp">
-                                             <source type="image/png"
-                                                srcset="/static/shiva-kumar-e970b3397299a4447d9eedf2355fdaf7.png">
-                                             <img class="lazyload"
-                                                data-src="/static/shiva-kumar-e970b3397299a4447d9eedf2355fdaf7.png"
-                                                alt="A Shiva Kumar">
-                                          </picture>
-                                          <h4>A Shiva Kumar</h4>
-                                          <p>Team Leader - Knowledge Operations</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="24" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/srijith-7ab3d97e5e7c6edffe6928ae1bb15a1f.webp">
-                                             <source type="image/png"
-                                                srcset="/static/srijith-bd18bd56d6558245793854358e00ee64.png">
-                                             <img class="lazyload"
-                                                data-src="/static/srijith-bd18bd56d6558245793854358e00ee64.png"
-                                                alt="Srijith Surendran P">
-                                          </picture>
-                                          <h4>Srijith Surendran P</h4>
-                                          <p>Conversational Experience Specialist</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="25" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/anil-e5bd2e512872575da959a444a17b0d06.webp">
-                                             <source type="image/png"
-                                                srcset="/static/anil-8353981687b8feff048c445c6d09a2e5.png">
-                                             <img class="lazyload"
-                                                data-src="/static/anil-8353981687b8feff048c445c6d09a2e5.png"
-                                                alt="Anil Nayak">
-                                          </picture>
-                                          <h4>Anil Nayak</h4>
-                                          <p>Conversation Experience Analyst - Intern</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="26" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/jerome-90b479288d5c922e02404af19475d385.webp">
-                                             <source type="image/png"
-                                                srcset="/static/jerome-c6a682f51893de3e849c260ec17a4b1c.png">
-                                             <img class="lazyload"
-                                                data-src="/static/jerome-c6a682f51893de3e849c260ec17a4b1c.png"
-                                                alt="Jerome">
-                                          </picture>
-                                          <h4>Jerome</h4>
-                                          <p>Conversation Experience Analyst</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="27" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/shivaram-4e6517246af25ae9e6b2a477dd885e93.webp">
-                                             <source type="image/png"
-                                                srcset="/static/shivaram-3c73d5609eebdb262e686fa18028e97c.png">
-                                             <img class="lazyload"
-                                                data-src="/static/shivaram-3c73d5609eebdb262e686fa18028e97c.png"
-                                                alt="Shivaram">
-                                          </picture>
-                                          <h4>Shivaram</h4>
-                                          <p>Associate Director Pre-sales</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="28" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/shwetha-80330e5d414a053d5ef79c23bcb014c0.webp">
-                                             <source type="image/png"
-                                                srcset="/static/shwetha-896b90ba02111c79b17855383102652d.png">
-                                             <img class="lazyload"
-                                                data-src="/static/shwetha-896b90ba02111c79b17855383102652d.png"
-                                                alt="Shwetha D">
-                                          </picture>
-                                          <h4>Shwetha D</h4>
-                                          <p>Conversation Experience Analyst</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="29" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/sindhu-9bc6627ceaabe764051bb950c9e69d9e.webp">
-                                             <source type="image/png"
-                                                srcset="/static/sindhu-b523b58307e37f2b829e4567f802a4e5.png">
-                                             <img class="lazyload"
-                                                data-src="/static/sindhu-b523b58307e37f2b829e4567f802a4e5.png"
-                                                alt="Sindhu">
-                                          </picture>
-                                          <h4>Sindhu</h4>
-                                          <p>HR - Recruiter</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="30" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/arshad-2b447819012a6df2880c2ed3a1c869ac.webp">
-                                             <source type="image/png"
-                                                srcset="/static/arshad-4118010521680a712934be6eba5e1efc.png">
-                                             <img class="lazyload"
-                                                data-src="/static/arshad-4118010521680a712934be6eba5e1efc.png"
-                                                alt="Mohammad Arshad Kazmi">
-                                          </picture>
-                                          <h4>Mohammad Arshad Kazmi</h4>
-                                          <p>Senior Software Engineer</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="31" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 175px;">
-                                    <div>
-                                       <div class="et-first-slider-item-wrap" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <picture>
-                                             <source type="image/webp"
-                                                srcset="/static/thejas-5e26d05f540ed030ac2cf4e6d9d74a9f.webp">
-                                             <source type="image/png"
-                                                srcset="/static/thejas-6ee4d295b254e2190c403b83f26575e0.png">
-                                             <img class="lazyload"
-                                                data-src="/static/thejas-6ee4d295b254e2190c403b83f26575e0.png"
-                                                alt="Thejas R">
-                                          </picture>
-                                          <h4>Thejas R</h4>
-                                          <p>QA Engineer</p>
-                                       </div>
-                                    </div>
-                                 </div>
+                        <div class="ie-career-nav-slider" dir="ltr">
+                           <div>
+                              <div class="et-first-slider-item-wrap" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <picture>
+                                    <img class=" ls-is-cached lazyloaded" 
+                                       data-src="assets/images/career-employees/BruceGillooly.png"
+                                       alt="Bruce Gillooly"
+                                       src="assets/images/career-employees/BruceGillooly.png">
+                                 </picture>
+
+                                 <h4>Bruce Gillooly</h4>
+                                 <p>Sales Advisor</p>
                               </div>
                            </div>
-                           <button type="button" data-role="none" class="slick-arrow slick-next"
-                              style="display: block;"> Next</button>
+                           <div>
+                              <div class="et-first-slider-item-wrap" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <picture>
+                                    <img class=" ls-is-cached lazyloaded"
+                                       data-src="assets/images/career-employees/SinuMohan.png"
+                                       alt="Sinu Mohan"
+                                       src="assets/images/career-employees/SinuMohan.png">
+                                 </picture>
+                                 <h4>Sinu Mohan</h4>
+                                 <p>Software Engineer</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-first-slider-item-wrap" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <picture>
+                                    <img class=" ls-is-cached lazyloaded"
+                                       data-src="assets/images/career-employees/Vithun.webp"
+                                       alt="Vithun" src="assets/images/career-employees/Vithun.webp">
+                                 </picture>
+                                 <h4>Vithun</h4>
+                                 <p>QA Engineer - Platform</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-first-slider-item-wrap" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <picture>
+                                    <img class=" ls-is-cached lazyloaded"
+                                       data-src="assets/images/career-employees/Jaimadhav.webp"
+                                       alt="Jaimadhav Senapati"
+                                       src="assets/images/career-employees/Jaimadhav.webp">
+                                 </picture>
+                                 <h4>Jaimadhav Senapati</h4>
+                                 <p>Team Lead - Strategy</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-first-slider-item-wrap" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <picture>
+                                    <img class=" ls-is-cached lazyloaded"
+                                       data-src="assets/images/career-employees/VivekSwaminathan.webp"
+                                       alt="Vivek Swaminathan"
+                                       src="assets/images/career-employees/VivekSwaminathan.webp">
+                                 </picture>
+                                 <h4>Vivek Swaminathan</h4>
+                                 <p>Director - Strategy</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-first-slider-item-wrap" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <picture>
+                                    <img class=" ls-is-cached lazyloaded"
+                                       data-src="assets/images/career-employees/PraneetKarnale.webp"
+                                       alt="Praneet Karnale"
+                                       src="assets/images/career-employees/PraneetKarnale.webp">
+                                 </picture>
+                                 <h4>Praneet Karnale</h4>
+                                 <p>Conversation Experience Specialist</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-first-slider-item-wrap" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <picture>
+                                    <img class=" ls-is-cached lazyloaded"
+                                       data-src="assets/images/career-employees/MThyagarajanSelvaKumar.webp"
+                                       alt="M Thyagarajan Selva Kumar"
+                                       src="assets/images/career-employees/MThyagarajanSelvaKumar.webp">
+                                 </picture>
+                                 <h4>M Thyagarajan Selva Kumar</h4>
+                                 <p>Sr. QA Engineer</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-first-slider-item-wrap" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <picture>
+                                    <img class=" ls-is-cached lazyloaded"
+                                       data-src="assets/images/career-employees/ShivaKumar.webp"
+                                       alt="A Shiva Kumar"
+                                       src="assets/images/career-employees/ShivaKumar.webp">
+                                 </picture>
+                                 <h4>A Shiva Kumar</h4>
+                                 <p>Team Leader - Knowledge Operations</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-first-slider-item-wrap" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <picture>
+                                    <img class=" ls-is-cached lazyloaded"
+                                       data-src="assets/images/career-employees/SrijithSurendran.webp"
+                                       alt="Srijith Surendran P"
+                                       src="assets/images/career-employees/SrijithSurendran.webp">
+                                 </picture>
+                                 <h4>Srijith Surendran P</h4>
+                                 <p>Conversational Experience Specialist</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-first-slider-item-wrap" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <picture>
+                                    <img class=" ls-is-cached lazyloaded"
+                                       data-src="assets/images/career-employees/AnilNayak.webp"
+                                       alt="Anil Nayak"
+                                       src="assets/images/career-employees/AnilNayak.webp">
+                                 </picture>
+                                 <h4>Anil Nayak</h4>
+                                 <p>Conversation Experience Analyst - Intern</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-first-slider-item-wrap" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <picture>
+                                    <img class=" ls-is-cached lazyloaded"
+                                       data-src="assets/images/career-employees/Jerome.webp"
+                                       alt="Jerome" src="assets/images/career-employees/Jerome.webp" />
+                                 </picture>
+                                 <h4>Jerome</h4>
+                                 <p>Conversation Experience Analyst</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-first-slider-item-wrap" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <picture>
+                                    <img class="lazyload"
+                                       data-src="assets/images/career-employees/Shivaram.webp"
+                                       alt="Shivaram" src="assets/images/career-employees/Shivaram.webp" />
+                                 </picture>
+                                 <h4>Shivaram</h4>
+                                 <p>Associate Director Pre-sales</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-first-slider-item-wrap" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <picture>
+                                    <img class="lazyload"
+                                       data-src="assets/images/career-employees/ShwethaD.webp"
+                                       alt="Shwetha D" src="assets/images/career-employees/ShwethaD.webp" />
+                                 </picture>
+                                 <h4>Shwetha D</h4>
+                                 <p>Conversation Experience Analyst</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-first-slider-item-wrap" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <picture>
+                                    <img class="lazyload"
+                                       data-src="assets/images/career-employees/Sindhu.webp"
+                                       alt="Sindhu" src="assets/images/career-employees/Sindhu.webp" />
+                                 </picture>
+                                 <h4>Sindhu</h4>
+                                 <p>HR - Recruiter</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-first-slider-item-wrap" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <picture>
+                                    <img class="lazyload"
+                                       data-src="assets/images/career-employees/MohammadArshadKazmi.webp"
+                                       alt="Mohammad Arshad Kazmi" src="assets/images/career-employees/MohammadArshadKazmi.webp" />
+                                 </picture>
+                                 <h4>Mohammad Arshad Kazmi</h4>
+                                 <p>Senior Software Engineer</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-first-slider-item-wrap" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <picture>
+                                    <img class="lazyload"
+                                       data-src="assets/images/career-employees/ThejasR.webp"
+                                       alt="Thejas R" src="assets/images/career-employees/ThejasR.webp" />
+                                 </picture>
+                                 <h4>Thejas R</h4>
+                                 <p>QA Engineer</p>
+                              </div>
+                           </div>
                         </div>
-                        <div class="slick-slider et-second-slider-main-wrap ie-employee-mobile-img slick-initialized"
-                           dir="ltr">
-                           <button type="button" data-role="none" class="slick-arrow slick-prev"
-                              style="display: block;"> Previous</button>
-                           <div class="slick-list" style="height: 194px;">
-                              <div class="slick-track"
-                                 style="width: 38610px; opacity: 1; transform: translate3d(-1170px, 0px, 0px);">
-                                 <div data-index="-1" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">Very supportive environment that treats its employees with
-                                             respect and encourages everyone to have a balanced lifestyle. Great team
-                                             members to work with who support you when there is a need. Great
-                                             opportunity to learn about AI.Good company to work with.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="0" class="slick-slide slick-active slick-current" tabindex="-1"
-                                    aria-hidden="false" style="outline: none; width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">The company's culture reflects the "People Helping People"
-                                             philosophy, which is foundational to credit unions. The entire team
-                                             respects and cares for each other as they work together to produce truly
-                                             amazing AI technology.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="1" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">The ability to learn, and translate that learning into
-                                             action rapidly is our ultimate competitive advantage.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="2" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">I began my career at interface.ai as a fresher two years
-                                             ago. I get to work alongside some of the best in the industry in a great
-                                             team setting. This has been a very exciting opportunity to be part of a
-                                             team that is creating something very valuable.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="3" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">The company's core strength lies in its team, where
-                                             everyone is not only incredibly talented but also down-to-earth. The
-                                             company has an open feedback culture where everyone is encouraged to share
-                                             their opinions and given equal importance. Strong advocacy for
-                                             DEI(diversity, equity and inclusion).</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="4" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">At interface.ai, you are guaranteed numerous learning
-                                             opportunities with a chance to see your work directly impact the company.
-                                             Good work is always rewarded, and there are no artificial barriers for
-                                             growth - things like work experience don't matter as long as you enable
-                                             impact. People who take the initiative and get things done thrive here. The
-                                             leadership team is very receptive to ideas &amp; feedback and are
-                                             constantly evolving the company to ensure it reaches great heights. Another
-                                             special thing you will observe in the organization is that you will always
-                                             run into people who are ready to help, irrespective of the team you
-                                             interact with.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="5" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">I joined interface.ai two months ago, and I am enjoying my
-                                             work here. I have got plenty of opportunities to learn and widen my
-                                             expertise in the past two months. The work environment is very well
-                                             structured and has loads of things for me to learn. Everyone is busy and
-                                             kind enough to take some time out for you if you need help. The best part
-                                             is your suggestions and recommendations are considered. You get to work on
-                                             many different things, giving you a good understanding of how a company
-                                             operates. Here we follow standard company practices, which ensures that
-                                             professionalism is maintained across the organization.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="6" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">I joined interface.ai 10 months ago as Sr. QA Engineer, and
-                                             it is going great to date. Glad that I have joined the organization at the
-                                             right time and very happy to contribute to the organization's growth. I am
-                                             looking forward to seeing the organization reaching great heights.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="7" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">It's been two months since I have joined interface.ai. It
-                                             is a great place to work. At interface.ai, I feel good about the working
-                                             culture, and my colleagues are very supportive. Whatever suggestions we
-                                             make are considered by the leadership team. The company provides work from
-                                             home in this pandemic situation which is a significant advantage. We have
-                                             direct interaction with Srinivas (CEO), who listens to us and his knowledge
-                                             and guidance helps us to solve problems. I feel empowered, and there is no
-                                             bias and politics seen here. Pay comes on time. I see growth in this
-                                             organization as we are moving towards the future. Artificial Intelligence
-                                             is one of them which is the future in the contact center industry. At last,
-                                             I can say I am happy to be associated with interface.ai :)</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="8" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">I love to work with interface.ai mainly because it is
-                                             employee friendly. The people around are exceptionally talented. You get to
-                                             learn a lot of new things on Artificial Intelligence. Also, working in a
-                                             startup is always special. You will grow with the organisation. I am
-                                             experiencing the same working with interface.ai - we are growing big!</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="9" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">It's been a dream come true to be part of interface.ai.
-                                             Life has been amazing with fantastic people around. I expect it will
-                                             continue to be. One of the healthiest work environments I have been part
-                                             of.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="10" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">It has been a couple months working with the organisation
-                                             now. I am happy and excited to be a part of the interface.ai family. The
-                                             work culture is warm and friendly. Lots of creative stuff to learn and
-                                             explore. With AI being the future transition, invariably across all sectors
-                                             of the market, Interface is a wonderful place to start/grow your career.
-                                          </p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="11" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">Amazing 2+ years.While everyone was seeing a downturn in
-                                             business during the pandemic, we have seen the best coming through.We
-                                             launched a new product during this time which has been helping many
-                                             financial institutions.The best thing that I have learnt from our leaders
-                                             at interface.ai is you can turn every unfortunate situation into an
-                                             opportunity if you have the willingness and dedication to do it. Cheers and
-                                             proud to be part of interface.ai family.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="12" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">I am very happy to be working at interface.ai. I am very
-                                             thankful to the leadership for the chance to work here and change my
-                                             domain. I love the employees of interface.ai; they are kind enough to help
-                                             the new joinees. Any moment if we approach anyone for help, nobody says no.
-                                          </p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="13" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">When you are around smart people you automatically become
-                                             smarter, that’s interface.ai for me..</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="14" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">Last 3 years have been awesome at interface.ai. At
-                                             interface.ai every day, you get to learn new things and get to work on
-                                             exciting things. I have been getting a lot of great opportunities at
-                                             interface.ai which has helped me a lot in improving my technical knowledge.
-                                          </p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="15" class="slick-slide" tabindex="-1" aria-hidden="true"
-                                    style="outline: none; width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">Very supportive environment that treats its employees with
-                                             respect and encourages everyone to have a balanced lifestyle. Great team
-                                             members to work with who support you when there is a need. Great
-                                             opportunity to learn about AI.Good company to work with.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="16" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">The company's culture reflects the "People Helping People"
-                                             philosophy, which is foundational to credit unions. The entire team
-                                             respects and cares for each other as they work together to produce truly
-                                             amazing AI technology.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="17" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">The ability to learn, and translate that learning into
-                                             action rapidly is our ultimate competitive advantage.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="18" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">I began my career at interface.ai as a fresher two years
-                                             ago. I get to work alongside some of the best in the industry in a great
-                                             team setting. This has been a very exciting opportunity to be part of a
-                                             team that is creating something very valuable.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="19" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">The company's core strength lies in its team, where
-                                             everyone is not only incredibly talented but also down-to-earth. The
-                                             company has an open feedback culture where everyone is encouraged to share
-                                             their opinions and given equal importance. Strong advocacy for
-                                             DEI(diversity, equity and inclusion).</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="20" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">At interface.ai, you are guaranteed numerous learning
-                                             opportunities with a chance to see your work directly impact the company.
-                                             Good work is always rewarded, and there are no artificial barriers for
-                                             growth - things like work experience don't matter as long as you enable
-                                             impact. People who take the initiative and get things done thrive here. The
-                                             leadership team is very receptive to ideas &amp; feedback and are
-                                             constantly evolving the company to ensure it reaches great heights. Another
-                                             special thing you will observe in the organization is that you will always
-                                             run into people who are ready to help, irrespective of the team you
-                                             interact with.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="21" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">I joined interface.ai two months ago, and I am enjoying my
-                                             work here. I have got plenty of opportunities to learn and widen my
-                                             expertise in the past two months. The work environment is very well
-                                             structured and has loads of things for me to learn. Everyone is busy and
-                                             kind enough to take some time out for you if you need help. The best part
-                                             is your suggestions and recommendations are considered. You get to work on
-                                             many different things, giving you a good understanding of how a company
-                                             operates. Here we follow standard company practices, which ensures that
-                                             professionalism is maintained across the organization.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="22" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">I joined interface.ai 10 months ago as Sr. QA Engineer, and
-                                             it is going great to date. Glad that I have joined the organization at the
-                                             right time and very happy to contribute to the organization's growth. I am
-                                             looking forward to seeing the organization reaching great heights.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="23" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">It's been two months since I have joined interface.ai. It
-                                             is a great place to work. At interface.ai, I feel good about the working
-                                             culture, and my colleagues are very supportive. Whatever suggestions we
-                                             make are considered by the leadership team. The company provides work from
-                                             home in this pandemic situation which is a significant advantage. We have
-                                             direct interaction with Srinivas (CEO), who listens to us and his knowledge
-                                             and guidance helps us to solve problems. I feel empowered, and there is no
-                                             bias and politics seen here. Pay comes on time. I see growth in this
-                                             organization as we are moving towards the future. Artificial Intelligence
-                                             is one of them which is the future in the contact center industry. At last,
-                                             I can say I am happy to be associated with interface.ai :)</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="24" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">I love to work with interface.ai mainly because it is
-                                             employee friendly. The people around are exceptionally talented. You get to
-                                             learn a lot of new things on Artificial Intelligence. Also, working in a
-                                             startup is always special. You will grow with the organisation. I am
-                                             experiencing the same working with interface.ai - we are growing big!</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="25" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">It's been a dream come true to be part of interface.ai.
-                                             Life has been amazing with fantastic people around. I expect it will
-                                             continue to be. One of the healthiest work environments I have been part
-                                             of.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="26" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">It has been a couple months working with the organisation
-                                             now. I am happy and excited to be a part of the interface.ai family. The
-                                             work culture is warm and friendly. Lots of creative stuff to learn and
-                                             explore. With AI being the future transition, invariably across all sectors
-                                             of the market, Interface is a wonderful place to start/grow your career.
-                                          </p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="27" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">Amazing 2+ years.While everyone was seeing a downturn in
-                                             business during the pandemic, we have seen the best coming through.We
-                                             launched a new product during this time which has been helping many
-                                             financial institutions.The best thing that I have learnt from our leaders
-                                             at interface.ai is you can turn every unfortunate situation into an
-                                             opportunity if you have the willingness and dedication to do it. Cheers and
-                                             proud to be part of interface.ai family.</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="28" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">I am very happy to be working at interface.ai. I am very
-                                             thankful to the leadership for the chance to work here and change my
-                                             domain. I love the employees of interface.ai; they are kind enough to help
-                                             the new joinees. Any moment if we approach anyone for help, nobody says no.
-                                          </p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="29" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">When you are around smart people you automatically become
-                                             smarter, that’s interface.ai for me..</p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="30" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">Last 3 years have been awesome at interface.ai. At
-                                             interface.ai every day, you get to learn new things and get to work on
-                                             exciting things. I have been getting a lot of great opportunities at
-                                             interface.ai which has helped me a lot in improving my technical knowledge.
-                                          </p>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div data-index="31" tabindex="-1" class="slick-slide slick-cloned" aria-hidden="true"
-                                    style="width: 1170px;">
-                                    <div>
-                                       <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
-                                          style="width: 100%; display: inline-block;">
-                                          <p class="ie-desc">Very supportive environment that treats its employees with
-                                             respect and encourages everyone to have a balanced lifestyle. Great team
-                                             members to work with who support you when there is a need. Great
-                                             opportunity to learn about AI.Good company to work with.</p>
-                                       </div>
-                                    </div>
-                                 </div>
+
+                        <div class="ie-career-for-slider et-second-slider-main-wrap ie-employee-mobile-img" dir="ltr">
+                           <div>
+                              <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <p class="ie-desc">The company's culture reflects the "People Helping People"
+                                    philosophy, which is foundational to credit unions. The entire team
+                                    respects and cares for each other as they work together to produce truly
+                                    amazing AI technology.</p>
                               </div>
                            </div>
-                           <button type="button" data-role="none" class="slick-arrow slick-next"
-                              style="display: block;"> Next</button>
+                           <div>
+                              <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <p class="ie-desc">The ability to learn, and translate that learning into
+                                    action rapidly is our ultimate competitive advantage.</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <p class="ie-desc">I began my career at interface.ai as a fresher two years
+                                    ago. I get to work alongside some of the best in the industry in a great
+                                    team setting. This has been a very exciting opportunity to be part of a
+                                    team that is creating something very valuable.</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <p class="ie-desc">The company's core strength lies in its team, where
+                                    everyone is not only incredibly talented but also down-to-earth. The
+                                    company has an open feedback culture where everyone is encouraged to share
+                                    their opinions and given equal importance. Strong advocacy for
+                                    DEI(diversity, equity and inclusion).</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <p class="ie-desc">At interface.ai, you are guaranteed numerous learning
+                                    opportunities with a chance to see your work directly impact the company.
+                                    Good work is always rewarded, and there are no artificial barriers for
+                                    growth - things like work experience don't matter as long as you enable
+                                    impact. People who take the initiative and get things done thrive here. The
+                                    leadership team is very receptive to ideas &amp; feedback and are
+                                    constantly evolving the company to ensure it reaches great heights. Another
+                                    special thing you will observe in the organization is that you will always
+                                    run into people who are ready to help, irrespective of the team you
+                                    interact with.</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <p class="ie-desc">I joined interface.ai two months ago, and I am enjoying my
+                                    work here. I have got plenty of opportunities to learn and widen my
+                                    expertise in the past two months. The work environment is very well
+                                    structured and has loads of things for me to learn. Everyone is busy and
+                                    kind enough to take some time out for you if you need help. The best part
+                                    is your suggestions and recommendations are considered. You get to work on
+                                    many different things, giving you a good understanding of how a company
+                                    operates. Here we follow standard company practices, which ensures that
+                                    professionalism is maintained across the organization.</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <p class="ie-desc">I joined interface.ai 10 months ago as Sr. QA Engineer, and
+                                    it is going great to date. Glad that I have joined the organization at the
+                                    right time and very happy to contribute to the organization's growth. I am
+                                    looking forward to seeing the organization reaching great heights.</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <p class="ie-desc">It's been two months since I have joined interface.ai. It
+                                    is a great place to work. At interface.ai, I feel good about the working
+                                    culture, and my colleagues are very supportive. Whatever suggestions we
+                                    make are considered by the leadership team. The company provides work from
+                                    home in this pandemic situation which is a significant advantage. We have
+                                    direct interaction with Srinivas (CEO), who listens to us and his knowledge
+                                    and guidance helps us to solve problems. I feel empowered, and there is no
+                                    bias and politics seen here. Pay comes on time. I see growth in this
+                                    organization as we are moving towards the future. Artificial Intelligence
+                                    is one of them which is the future in the contact center industry. At last,
+                                    I can say I am happy to be associated with interface.ai :)</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <p class="ie-desc">I love to work with interface.ai mainly because it is
+                                    employee friendly. The people around are exceptionally talented. You get to
+                                    learn a lot of new things on Artificial Intelligence. Also, working in a
+                                    startup is always special. You will grow with the organisation. I am
+                                    experiencing the same working with interface.ai - we are growing big!</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <p class="ie-desc">It's been a dream come true to be part of interface.ai.
+                                    Life has been amazing with fantastic people around. I expect it will
+                                    continue to be. One of the healthiest work environments I have been part
+                                    of.</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <p class="ie-desc">It has been a couple months working with the organisation
+                                    now. I am happy and excited to be a part of the interface.ai family. The
+                                    work culture is warm and friendly. Lots of creative stuff to learn and
+                                    explore. With AI being the future transition, invariably across all sectors
+                                    of the market, Interface is a wonderful place to start/grow your career.
+                                 </p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <p class="ie-desc">Amazing 2+ years.While everyone was seeing a downturn in
+                                    business during the pandemic, we have seen the best coming through.We
+                                    launched a new product during this time which has been helping many
+                                    financial institutions.The best thing that I have learnt from our leaders
+                                    at interface.ai is you can turn every unfortunate situation into an
+                                    opportunity if you have the willingness and dedication to do it. Cheers and
+                                    proud to be part of interface.ai family.</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <p class="ie-desc">I am very happy to be working at interface.ai. I am very
+                                    thankful to the leadership for the chance to work here and change my
+                                    domain. I love the employees of interface.ai; they are kind enough to help
+                                    the new joinees. Any moment if we approach anyone for help, nobody says no.
+                                 </p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <p class="ie-desc">When you are around smart people you automatically become
+                                    smarter, that’s interface.ai for me..</p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <p class="ie-desc">Last 3 years have been awesome at interface.ai. At
+                                    interface.ai every day, you get to learn new things and get to work on
+                                    exciting things. I have been getting a lot of great opportunities at
+                                    interface.ai which has helped me a lot in improving my technical knowledge.
+                                 </p>
+                              </div>
+                           </div>
+                           <div>
+                              <div class="et-second-slider-item-wrap ie-case-study-slider-quote" tabindex="-1"
+                                 style="width: 100%; display: inline-block;">
+                                 <p class="ie-desc">Very supportive environment that treats its employees with
+                                    respect and encourages everyone to have a balanced lifestyle. Great team
+                                    members to work with who support you when there is a need. Great
+                                    opportunity to learn about AI.Good company to work with.</p>
+                              </div>
+                           </div>
                         </div>
                      </div>
                   </div>
@@ -2392,7 +750,7 @@
             </div>
          </div>
       </div>
-      <div class="ie-career-derive-section ie-career-perks-benefits pb-5">
+      <div class="ie-career-derive-section ie-career-perks-benefits">
          <div class="container">
             <div class="row">
                <div class="col-lg-8">
@@ -2462,7 +820,7 @@
       </div>
    </div>
    <!-- <a class="video" href="./assets/sample.mp4">Open Wista video</a> -->
-   <footer class="site-footer position-relative">
+   <footer class="ie-footer-wrapper ie-footer-page--careers site-footer position-relative">
       <!-- <div class="footer-upgrade bg-yellow position-relative">
                 <h2 class="fw-700 mb-4 pb-2">Ready for an upgrade?</h2>
                 <a class="theme-btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" tabindex="-1">Schedule Demo</a>
@@ -2783,35 +1141,46 @@
    <script src="assets/js/popper.min.js"></script>
    <script src="assets/js/bootstrap.bundle.min.js"></script>
    <script src="assets/js/slick.min.js"></script>
-   <!-- <script src="//fast.wistia.com/embed/medias/hfhtu17gah.jsonp" async></script>
-        <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>  -->
-   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script> -->
    <script src="assets/js/custom.js"></script>
-   <!-- <script>
-                $('.video').magnificPopup({
-                    type: 'iframe',
-                    iframe: {
-                        patterns: {
-                        wistia: {
-                            index: 'wistia.com',
-                            id: function(url) {        
-                                var m = url.match(/^.+wistia.com\/(medias)\/([^_]+)[^#]*(#medias=([^_&]+))?/);
-                                if (m !== null) {
-                                    if(m[4] !== undefined) {
-                                        return m[4];
-                                    }
-                                    return m[2];
-                                }
-                                return null;
-                            },
-                            src: '//fast.wistia.net/embed/iframe/%id%?autoPlay=1' // https://wistia.com/doc/embed-options#options_list
-                        }
-                        }
-                    }
-                    });
 
-        </script> -->
+   <script>
+      
 
+      $(document).ready(function() {
+         $('.ie-career-for-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,
+            fade: true,
+            adaptiveHeight: true,
+            asNavFor: '.ie-career-nav-slider',
+            cssEase: 'linear'
+         });
+         $('.ie-career-nav-slider').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            asNavFor: '.ie-career-for-slider',
+            dots: false,
+            centerMode: false,
+            focusOnSelect: true,
+            infinite: true,
+            responsive: [
+               {
+                  breakpoint: 1024,
+                  settings: {
+                     slidesToShow: 2
+                  }
+               },
+               {
+                  breakpoint: 480,
+                  settings: {
+                     slidesToShow: 1
+                  }
+               }
+            ]
+         });
+      });
+   </script>
 </body>
 
 </html>
