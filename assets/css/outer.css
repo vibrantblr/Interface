@@ -254,7 +254,7 @@ a{
 }
 
 .top-header{
-    z-index: 2;
+    z-index: 9;
     transition: all .4s linear;
 }
 .top-header.fixed{
