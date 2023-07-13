@@ -265,7 +265,7 @@
     transform: translate(-50%, -50%) scale(0.5);
   }
   .case-study-section {
-    padding: 4rem 0 6.4rem;
+    padding: 4rem 0;
   }
 
   .case-study-img img {
@@ -294,14 +294,15 @@
   }
   .case-study-slider .slick-next,
   .case-study-slider .slick-prev {
-    top: 40%;
+    top: 50%;
     transform: translateY(-50%);
+    display: flex;
   }
   .case-study-slider .slick-next {
-    right: 0;
+    right: -5px;
   }
   .case-study-slider .slick-prev {
-    left: 0;
+    left: -5px;
   }
 
   .solution-section .container.no-padding {
